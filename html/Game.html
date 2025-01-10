@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра с Мюнхгаузеном</title>
+    <link rel="stylesheet" href="../style_game.css">
+</head>
+<body>
+    <div class="full-screen-container">
+        <div class="header-container">
+            <div class="header">
+                <img src="../img/Munxauzen.png" alt="Барон Мюнхгаузен" class="header-avatar">
+                <h1>Барон Мюнхгаузен</h1>
+            </div>
+        </div>
+         <div class="chat-container">
+                <div class="messages">
+                </div>
+            </div>
+       <div class="bottom-area">
+             <div class="input-area" style="display: none;">
+              <input type="text" id="message-input" placeholder="Введите сообщение...">
+              <button id="send-button">
+                ->
+              </button>
+           </div>
+            <div class="button-area">
+                <button class="truth-button">Правда</button>
+                <button class="lie-button">Ложь</button>
+            </div>
+        </div>
+    </div>
+    <script src="../game.js"></script>
+</body>
+</html>
